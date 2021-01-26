@@ -24,7 +24,7 @@ local_css("App/style.css")
 #---------------------------------#
 st.write("""# The Pomodoro App
 Original app developed by: [Data Professor](http://youtube.com/dataprofessor)
-Improvements by: jlmarrugom
+Improvements by: [jlmarrugom](https://twitter.com/JoseLuisMarrugo)
 """)
 
 # Timer
