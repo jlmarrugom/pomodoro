@@ -4,7 +4,22 @@
 
 import streamlit as st
 import time
-
+hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            footer:after {
+                content:'jlmarrugom'; 
+                visibility: visible;
+                display: block;
+                position: relative;
+                #background-color: red;
+                padding: 5px;
+                top: 2px;
+            }
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 # CSS by andfanilo
 # Source: https://discuss.streamlit.io/t/creating-a-nicely-formatted-search-field/1804
 def local_css(file_name):
